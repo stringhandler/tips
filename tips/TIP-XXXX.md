@@ -425,7 +425,7 @@ end
 #[test]
 fn test_memo_parsing() {
     let memo1 = r#"t:"slot1","simple value""#;
-    let memo2 = r#"t:"slot2","value with \"quotes\"""#;
+    let memo2 = r#"t:"slot2","value with ""quotes"""#;
     let memo3 = r#"t:"slot3","multiline\nvalue""#;
 
     assert_eq!(parse_tapplet_memo("slot1", memo1), Some("simple value"));
