@@ -207,7 +207,7 @@ When an API method is called, the permissions must be checked again to make sure
 
 #### 7. Registry System
 
-A default registry should be hosted in the Tari Github organization, but other registries can be added by the user at their own risk.
+A default registry should be hosted in the Tari GitHub organization, but other registries can be added by the user at their own risk.
 
 Installing a tapplet should be a simple command in the wallet, and can be done by pulling the latest registry and copying the folder for the 
 tapplet into a local file. 
