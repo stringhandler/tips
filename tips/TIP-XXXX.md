@@ -63,8 +63,7 @@ This ensures:
 - Data is isolated from other tapplets
 - Only those with both parent keys and tapplet public key can decrypt
 
-> NOTE: The tapplet registry should maybe also be included, so that malicious developers cannot reuse the `tapplet_public_key` across 
-register
+> NOTE: The tapplet registry should maybe also be included, so that malicious developers cannot reuse the `tapplet_public_key` across multiple tapplet registrations. Including the registry identifier in the key derivation ensures that each tapplet's view key is unique, even if the same public key is used elsewhere.
 
 ##### The risks of sharing of view keys
 In some situation, a user might upload their view key to a custodial wallet. Doing so would allow the custodial provider to see
